@@ -1,0 +1,10 @@
+reminder:
+  # Minute (0) : La tâche est exécutée à la minute 0.
+  # Heure (10) : La tâche est exécutée à 10h.
+  # Jour du mois (28) : La tâche est exécutée le 28e jour du mois.
+  # Mois (*) : La tâche est exécutée tous les mois.
+  #Jour de la semaine (*) : La tâche est exécutée quel que soit le jour de la semaine.
+  cron: '0 10 28 * *' # chaque 28 du mois à 10h00
+  message: "@everyone N’oubliez pas de vous actualiser sur France Travail !"
+  link: "https://candidat.francetravail.fr/espacepersonnel/"
+  logo: "https://i.imgur.com/UOhAOlX.png" #logo
